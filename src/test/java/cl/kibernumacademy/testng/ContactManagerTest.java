@@ -55,17 +55,17 @@ public class ContactManagerTest {
     public void testFiltrarPorEstado() {
         // NOTA: Este test no utiliza los parámetros definidos en testng.xml porque necesita crear contactos específicos
         // con valores fijos para controlar el escenario y validar el filtrado por estado.
-        Contact c1 = new Contact("c1", "c1@mail.com");
-        Contact c2 = new Contact("c2", "c2@mail.com");
-        manager.agregarContacto(c1);
-        manager.agregarContacto(c2);
-        manager.desactivarContacto("c1");
-        List<Contact> activos = manager.filtrarPorEstado(Contact.Estado.ACTIVO);
-        List<Contact> inactivos = manager.filtrarPorEstado(Contact.Estado.INACTIVO);
-        SoftAssert sa = new SoftAssert();
-        sa.assertTrue(activos.contains(c2));
-        sa.assertTrue(inactivos.contains(c1));
-        sa.assertAll();
+        Contact c1 = new Contact("c1", "c1@mail.com"); // Creamos el contacto c1 con estado ACTIVO por defecto
+        Contact c2 = new Contact("c2", "c2@mail.com"); // Creamos el contacto c2 con estado ACTIVO por defecto
+        manager.agregarContacto(c1); // Agregamos c1 al ContactManager
+        manager.agregarContacto(c2); // Agregamos c2 al ContactManager
+        manager.desactivarContacto("c1"); // Desactivamos el contacto c1 (cambia su estado a INACTIVO)
+        List<Contact> activos = manager.filtrarPorEstado(Contact.Estado.ACTIVO); // Obtenemos la lista de contactos activos
+        List<Contact> inactivos = manager.filtrarPorEstado(Contact.Estado.INACTIVO); // Obtenemos la lista de contactos inactivos
+        SoftAssert sa = new SoftAssert(); // Usamos SoftAssert para validar múltiples condiciones sin detener el test en el primer fallo
+        sa.assertTrue(activos.contains(c2)); // Verificamos que c2 está en la lista de activos
+        sa.assertTrue(inactivos.contains(c1)); // Verificamos que c1 está en la lista de inactivos
+        sa.assertAll(); // Ejecuta todas las validaciones y reporta los errores encontrados
     }
 }
 

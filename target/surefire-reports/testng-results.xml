@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-14T20:38:52 CLT" name="ContactManagerSuite" finished-at="2025-07-14T20:38:52 CLT" duration-ms="48">
+    <groups>
+    </groups>
+    <test started-at="2025-07-14T20:38:52 CLT" name="ContactManagerTest2" finished-at="2025-07-14T20:38:52 CLT" duration-ms="48">
+      <class name="cl.kibernumacademy.testng.ContactManagerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="setUp" finished-at="2025-07-14T20:38:52 CLT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="limpiarContactos()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="limpiarContactos" finished-at="2025-07-14T20:38:52 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarContactos -->
+        <test-method signature="testAgregarContacto(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="testAgregarContacto" finished-at="2025-07-14T20:38:52 CLT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ana Lopez]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ana.lopez@email.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarContacto -->
+        <test-method signature="testDesactivarContacto(java.lang.String)[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="testDesactivarContacto" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ana Lopez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDesactivarContacto -->
+        <test-method is-config="true" signature="limpiarContactos()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="limpiarContactos" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarContactos -->
+        <test-method signature="testDesactivarContactoInexistente()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="testDesactivarContactoInexistente" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDesactivarContactoInexistente -->
+        <test-method is-config="true" signature="limpiarContactos()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="limpiarContactos" finished-at="2025-07-14T20:38:52 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarContactos -->
+        <test-method is-config="true" signature="limpiarContactos()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="limpiarContactos" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarContactos -->
+        <test-method signature="testFiltrarPorEstado()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="testFiltrarPorEstado" finished-at="2025-07-14T20:38:52 CLT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFiltrarPorEstado -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@20d28811]" started-at="2025-07-14T20:38:52 CLT" name="tearDown" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cl.kibernumacademy.testng.ContactManagerTest -->
+    </test> <!-- ContactManagerTest2 -->
+    <test started-at="2025-07-14T20:38:52 CLT" name="ContactManagerTest" finished-at="2025-07-14T20:38:52 CLT" duration-ms="48">
+      <class name="cl.kibernumacademy.testng.ContactManagerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="setUp" finished-at="2025-07-14T20:38:52 CLT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="limpiarContactos()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="limpiarContactos" finished-at="2025-07-14T20:38:52 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarContactos -->
+        <test-method signature="testAgregarContacto(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="testAgregarContacto" finished-at="2025-07-14T20:38:52 CLT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Juan Perez]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[juan.perez@email.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAgregarContacto -->
+        <test-method signature="testDesactivarContacto(java.lang.String)[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="testDesactivarContacto" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Juan Perez]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDesactivarContacto -->
+        <test-method is-config="true" signature="limpiarContactos()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="limpiarContactos" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarContactos -->
+        <test-method signature="testDesactivarContactoInexistente()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="testDesactivarContactoInexistente" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDesactivarContactoInexistente -->
+        <test-method is-config="true" signature="limpiarContactos()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="limpiarContactos" finished-at="2025-07-14T20:38:52 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarContactos -->
+        <test-method is-config="true" signature="limpiarContactos()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="limpiarContactos" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- limpiarContactos -->
+        <test-method signature="testFiltrarPorEstado()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="testFiltrarPorEstado" finished-at="2025-07-14T20:38:52 CLT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFiltrarPorEstado -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cl.kibernumacademy.testng.ContactManagerTest@2ddc8ecb]" started-at="2025-07-14T20:38:52 CLT" name="tearDown" finished-at="2025-07-14T20:38:52 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cl.kibernumacademy.testng.ContactManagerTest -->
+    </test> <!-- ContactManagerTest -->
+  </suite> <!-- ContactManagerSuite -->
+</testng-results>
