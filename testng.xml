@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ContactManagerSuite" parallel="tests" thread-count="2">
+
+    <test name="ContactManagerTest">
+        <parameter name="nombre" value="Juan Perez"/>
+        <parameter name="correo" value="juan.perez@email.com"/>
+        <classes>
+            <class name="cl.kibernumacademy.testng.ContactManagerTest"/>
+        </classes>
+    </test>
+
+    <test name="ContactManagerTest2">
+        <parameter name="nombre" value="Ana Lopez"/>
+        <parameter name="correo" value="ana.lopez@email.com"/>
+        <classes>
+            <class name="cl.kibernumacademy.testng.ContactManagerTest"/>
+        </classes>
+    </test>
+</suite>
